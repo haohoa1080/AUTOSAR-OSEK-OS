@@ -1,29 +1,0 @@
-Dependencies for Project 'OsekIntro_Example1', Target 'Target 1': (DO NOT MODIFY !)
-CompilerVersion: 6190000::V6.19::ARMCLANG
-F (.\OsekIntro_Example1.c)(0x5FFAC759)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -fno-function-sections -I ../../oil -I ../../OsekLib-I./RTE/_Target_1-IC:/Users/Hao/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Hao/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./build_files/osekintro_example1.o -MD)
-I (..\..\OsekLib\os.h)(0x5FFAC759)
-I (..\..\oil\OsCfg.h)(0x650E17A7)
-I (..\..\OsekLib\OsTypes.h)(0x5FFAC759)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63885718)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
-F (..\..\oil\OsCfg.c)(0x650E17A7)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -fno-function-sections -I ../../oil -I ../../OsekLib-I./RTE/_Target_1-IC:/Users/Hao/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Hao/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./build_files/oscfg.o -MD)
-I (..\..\oil\OsCfg.h)(0x650E17A7)
-I (..\..\OsekLib\OsTypes.h)(0x5FFAC759)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63885718)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
-F (..\..\oil\OsCfg.h)(0x650E17A7)()
-F (..\..\OsekLib\counter.c)(0x5FFAC759)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -fno-function-sections -I ../../oil -I ../../OsekLib-I./RTE/_Target_1-IC:/Users/Hao/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Hao/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./build_files/counter.o -MD)
-I (..\..\OsekLib\counter.h)(0x5FFAC759)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
-I (..\..\oil\OsCfg.h)(0x650E17A7)
-I (..\..\OsekLib\OsTypes.h)(0x5FFAC759)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63885718)
-F (..\..\OsekLib\counter.h)(0x5FFAC759)()
-F (..\..\OsekLib\os.h)(0x5FFAC759)()
-F (..\..\OsekLib\OsTypes.h)(0x5FFAC759)()
-F (..\..\OsekLib\startup\keilUvisoin_startup.s)(0x5FFAC759)(--target=armv7em-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__MICROLIB SETA 1" -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IC:/Users/Hao/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Hao/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-Wa,armasm,--pd,"__UVISION_VERSION SETA 538" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./build_files/keiluvisoin_startup.o)
-F (..\..\OsekLib\hook.c)(0x5FFAC759)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -fno-function-sections -I ../../oil -I ../../OsekLib-I./RTE/_Target_1-IC:/Users/Hao/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Hao/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./build_files/hook.o -MD)
-I (..\..\OsekLib\OsTypes.h)(0x5FFAC759)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63885718)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
-F (..\..\OsekLib\OsekLib.lib)(0x5FFAC759)()
